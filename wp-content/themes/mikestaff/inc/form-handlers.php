@@ -280,7 +280,7 @@ function mikestaff_process_check_availability( $data ) {
    //Process a new form submission in HubSpot in order to create a new Contact.
 	$hubspotutk      = $_COOKIE['hubspotutk']; //grab the cookie from the visitors browser.
 	$ip_addr         = $_SERVER['REMOTE_ADDR']; //IP address too.
-	$url             = $_POST['url'];
+	$url             = str_replace("109.199.114.88/~mikes116/", "", $_POST['url']);
 	$title           = $_POST['page_name'];
 	$hs_context      = array(
 	    'hutk' => $hubspotutk,
@@ -323,7 +323,7 @@ function mikestaff_process_check_availability( $data ) {
   		. "&wedding_date=" .  urlencode($_POST['wedding_date'])
   		. "&reception_venue=" .  urlencode($_POST['reception_venue'])
   		. "&message=" .  urlencode($_POST['message'])
-	    . "&page_source=" . urlencode($_POST['url'])
+	    . "&page_source=" . urlencode($url)
 	    . "&wedding_location=" . urlencode( $_POST['location'])
 	    . "&hs_context=" . urlencode($hs_context_json); //Leave this one be
 	
@@ -344,6 +344,7 @@ function mikestaff_process_check_availability( $data ) {
 	));
 	@curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	@curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+	@curl_setopt($ch, CURLOPT_REFERER, "http://mikestaff.com");
 	$response    = @curl_exec($ch); //Log the response from HubSpot as needed.
 	$status_code = @curl_getinfo($ch, CURLINFO_HTTP_CODE); //Log the response status code
 	@curl_close($ch);
