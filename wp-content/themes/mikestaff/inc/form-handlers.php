@@ -343,6 +343,7 @@ function mikestaff_process_check_availability( $data ) {
 	    'Content-Type: application/x-www-form-urlencoded'
 	));
 	@curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	@curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	$response    = @curl_exec($ch); //Log the response from HubSpot as needed.
 	$status_code = @curl_getinfo($ch, CURLINFO_HTTP_CODE); //Log the response status code
 	@curl_close($ch);

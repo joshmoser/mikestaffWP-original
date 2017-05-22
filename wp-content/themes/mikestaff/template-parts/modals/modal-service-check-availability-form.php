@@ -112,6 +112,7 @@
                             <input type="hidden" name="page_name" value="<?php the_title(); ?>">
                             <input type="hidden" name="location" value="<?php the_field('location'); ?>">
                             <input type="hidden" name="form_name" value="check_availability">
+                            <?php wp_nonce_field( 'ca_submission', 'ca_submission_nonce_field' ); ?>
                             <button type="submit" class="btn btn-primary">Submit</button>                    
                         </div>
                     </div>

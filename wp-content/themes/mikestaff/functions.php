@@ -154,7 +154,7 @@ class msp_widget extends WP_Widget
     		}
     	?>
     </section>
-    <? }
+    <?php }
  
 }
 add_action( 'widgets_init', 'msp_widget_init' );
