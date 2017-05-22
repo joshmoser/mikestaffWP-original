@@ -1,0 +1,10 @@
+dr-xr-xr-x   2 vickyrum vickyrum     4096 Jan 27 18:11 .
+dr-xr-xr-x  11 vickyrum vickyrum     4096 Jan 27 18:11 ..
+-r--r--r--   1 vickyrum vickyrum    16256 Jan 27 18:11 handlers.js
+-r--r--r--   1 vickyrum vickyrum    10681 Jan 27 18:11 handlers.min.js
+-r--r--r--   1 vickyrum vickyrum    17987 Jan 27 18:11 license.txt
+-r--r--r--   1 vickyrum vickyrum    29570 Jan 27 18:11 plupload.flash.swf
+-r--r--r--   1 vickyrum vickyrum   113081 Jan 27 18:11 plupload.full.min.js
+-r--r--r--   1 vickyrum vickyrum    63118 Jan 27 18:11 plupload.silverlight.xap
+-r--r--r--   1 vickyrum vickyrum    12714 Jan 27 18:11 wp-plupload.js
+-r--r--r--   1 vickyrum vickyrum     4920 Jan 27 18:11 wp-plupload.min.js

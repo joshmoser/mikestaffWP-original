@@ -1,0 +1,577 @@
+.help-desk .site-header {
+	background: transparent url('../img/header-bg.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.help-desk-welcome-wrapper {
+	background: #79B9EC;
+	overflow: hidden;
+}
+
+.help-desk-welcome-wrapper h1 {
+	color: #FFF;
+	font-weight: 900;
+	font-family: 'Roboto Condensed','Lato',sans-serif;
+}
+
+.help-desk-welcome-wrapper h1 span {
+	color: #3E6090; 
+}
+
+.help-desk-welcome-wrapper .video-wrapper {
+	margin-top: 10px;
+	border: 6px solid #FFF;
+}
+
+.help-desk-content-wrapper {
+	margin-bottom: 30px;
+}
+
+.help-desk-form-wrapper {
+	margin-bottom: 30px;
+}
+
+.help-desk-video-slider {
+	background: #79B9EC;
+	padding: 20px 0;
+	margin-bottom: 30px;
+}
+
+.hd-content-title {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.hd-icon-wrapper {
+	color: #3E6090;
+	vertical-align: middle;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+.hd-icon {
+	font-size: 2em;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.hd-phone {
+	background:#3E6090;
+	color: #FFF;
+	font-size: 1.5em;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.hd-button {
+	background-color:#FF872F;
+	color: #FFF;
+	font-size: 1.1em;
+	font-style: italic;
+	border-radius: 12px;
+	padding: 3px 12px;
+}
+
+.hd-mobile-timeline-icon {
+	margin-bottom: 20px;
+}
+
+.hd-button-wrapper {
+	text-align: center;
+}
+
+.panel-title {
+	vertical-align: middle;
+}
+
+.panel-title .glyphicon {
+	margin-right: 15px;
+}
+
+#hd-popup {
+	display: none;
+}
+
+.hd-faq-link-graphic {
+	margin-bottom: 30px;
+}
+
+.help-desk .header-logo {
+	margin-bottom: 20px;
+}
+
+.trust-our-reputation-graphic {
+	margin-top: 20px;
+}
+
+.help-desk-form {
+	padding: 20px;
+	margin-bottom: 20px;
+	max-width: 500px;
+	margin: 0 auto;
+    background: #79B9EC;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.help-desk-form h2 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.help-desk-form select {
+    display: block;
+    height: 34px;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    float: left;
+    margin: 0 .5% 15px .5%;
+}
+
+.help-desk-form #dateMonth {
+	width: 49%;
+}
+
+.help-desk-form #dateDay {
+	width: 19%;
+}
+
+.help-desk-form #dateYear {
+	width: 29%;
+}
+
+.submit {
+	background: #000;
+	color: #fff;
+	border: 0;
+	font-style: italic;
+	float: right;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #ff872f;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+
+}
+
+.main-navigation li {
+	float: none;
+	position: relative;
+	padding: 5px 15px;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-navigation ul ul {
+	padding: 10px 0;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul ul li {
+
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+}
+
+.main-navigation ul ul :hover > a,
+.main-navigation ul ul .focus > a {
+}
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+}
+
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	left: auto;
+}
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	left: 100%;
+}
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+.menu-toggle {
+	background-color: transparent;
+	border: 0;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+@media all and (min-width: 480px) {
+
+}
+
+@media all and (min-width: 768px) {
+	.menu-toggle {
+		display: none;
+	}
+	.menu-help-desk-container {
+		width: 738px;
+		margin: 0 auto;
+		height: auto;
+		padding: 0 15px;
+	}
+	.main-navigation ul {
+		display: block;
+		float: right;
+		width: auto;
+		height: auto;
+	}
+	.main-navigation li {
+		float: left;
+		position: relative;
+		padding: 5px 0px;
+	}
+
+	.main-navigation li a {
+		padding: 0 15px;
+		border-right: solid 1px #fff;
+	}
+
+	.main-navigation li:last-child a {
+		border: 0;
+	}
+
+	.main-navigation ul ul li a {
+		border: 0;
+	}
+
+	.main-navigation ul ul {
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+		float: left;
+		position: absolute;
+		top: 1.8em;
+		left: -999em;
+		z-index: 99999;
+		background-color: #ff872f;
+	}
+	.help-desk-welcome-wrapper {
+		background: #79B9EC url('../img/help-desk/hd-top-line-2.jpg') 0 0 repeat-x;
+	}
+
+	.hd-welcome-inner-wrap {
+		background: url('../img/help-desk/help-desk-welcome-2.jpg') center 0 no-repeat;
+		overflow: hidden;
+	}
+
+	.hd-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 center repeat-x;
+	}
+
+	.hd-icon-wrapper {
+		text-align: left;
+	}
+
+	.hd-button-wrapper {
+		text-align: left;
+	}
+
+	.hd-photo-6week-push {
+		margin-top: 130px;
+	}
+
+	.hd-photo-4week-push {
+		margin-top: 20px;
+	}
+
+	.hd-photo-1week-push {
+		margin-top: 110px;
+	}
+
+	.hd-happy-people {
+		margin-top: 25px;
+	}
+
+	.hd-wedding-day-caption {
+		color: #FFF;
+	}
+
+	.hd-photo-1mafter-push {
+		margin-top: 110px;
+	}
+
+	.hd-dj-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 100px repeat-x;
+	}
+
+	.hd-dj-6week-push {
+	}
+
+	.hd-dj-2week-push {
+		margin-top: 50px;
+	}
+
+	.hd-dj-1week-push {
+		margin-top: 160px;
+	}
+
+	.hd-dj-happy-people {
+		margin-top: 20px;
+	}
+
+	.hd-dj-wedding-day-caption {
+		color: #FFF;
+		margin-top: -7px;
+	}
+
+	.hd-video-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 100px repeat-x;
+	}
+
+	.hd-video-6week-push {
+	}
+
+	.hd-video-2week-push {
+		margin-top: 30px;
+	}
+
+	.hd-video-1week-push {
+		margin-top: 160px;
+	}
+
+	.hd-video-happy-people {
+		margin-top: 20px;
+	}
+
+	.hd-video-12weeks-after {
+		margin-top: 10px;
+	}
+
+	.help-desk .header-logo {
+		margin-bottom: 0px;
+		margin-top: 15px;
+	}	
+}
+
+@media all and (min-width: 992px) { 
+	.menu-help-desk-container {
+		width: 962px;
+		margin: 0 auto;
+	}
+	.help-desk-form-wrapper {
+		margin-bottom: 30px;
+		background: transparent url('../img/help-desk/hub-form-bg.png') 0 115px repeat-x;
+	}
+
+	.help-desk-cta {
+		margin-top: 130px;
+	}
+
+	.hd-photo-90day-push {
+		margin-top: 15px;
+	}
+
+	.hd-photo-6week-push {
+		margin-top: 130px;
+	}
+
+	.hd-photo-4week-push {
+		margin-top: 40px;
+	}
+
+	.hd-photo-1week-push {
+		margin-top: 120px;
+	}
+
+	.hd-happy-people {
+		margin-top: 3px;
+	}
+
+	.hd-wedding-day-caption {
+		margin-top: 20px;
+	}
+
+	.hd-photo-2after-push {
+		margin-top: 15px;
+	}
+
+	.hd-photo-1mafter-push {
+		margin-top: 75px;
+	}
+
+	.hd-dj-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 70px repeat-x;
+	}
+
+	.hd-dj-2week-push {
+		margin-top: 95px;
+	}
+
+	.hd-dj-1week-push {
+		margin-top: 180px;
+	}
+
+	.hd-dj-happy-people {
+		margin-top: -9px;
+	}
+
+	.hd-dj-wedding-day-caption {
+		color: #FFF;
+		margin-top: 0;
+	}
+
+	.hd-video-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 80px repeat-x;
+	}
+
+	.hd-video-6week-push {
+	}
+
+	.hd-video-2week-push {
+		margin-top: 75px;
+	}
+
+	.hd-video-1week-push {
+		margin-top: 180px;
+	}
+
+	.hd-video-happy-people {
+		margin-top: 0;
+	}
+
+	.hd-video-12weeks-after {
+		margin-top: 10px;
+	}
+
+	.hd-question-marks {
+		margin-top: -80px;
+	}	
+}
+
+@media all and (min-width: 1200px) {
+	.menu-help-desk-container {
+		width: 1170px;
+		margin: 0 auto;
+	}
+	.help-desk-form-wrapper {
+		margin-bottom: 30px;
+		background: transparent url('../img/help-desk/hub-form-bg-3.png') 0 100px repeat-x;
+	}
+
+	.help-desk-cta {
+		margin-top: 100px;
+	}
+
+	.hd-photo-90day-push {
+		margin-top: 25px;
+	}
+
+	.hd-photo-6week-push {
+		margin-top: 140px;
+	}
+
+	.hd-photo-4week-push {
+		margin-top: 80px;
+	}
+
+	.hd-photo-1week-push {
+		margin-top: 160px;
+	}
+
+	.hd-happy-people {
+		margin-top: 27px;
+	}
+
+	.hd-wedding-day-caption {
+		margin-top: 20px;
+	}
+
+	.hd-photo-2after-push {
+		margin-top: 15px;
+	}
+
+	.hd-photo-1mafter-push {
+		margin-top: 105px;
+	}
+
+	.hd-dj-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 100px repeat-x;
+	}
+
+	.hd-dj-happy-people {
+		margin-top: 20px;
+	}
+
+	.hd-dj-wedding-day-caption {
+		color: #FFF;
+		margin-top: 0;
+	}
+
+	.hd-video-your-wedding-day-wrapper {
+		background: transparent url('../img/help-desk/your-wedding-day-bg.jpg') 0 100px repeat-x;
+	}
+
+	.hd-video-2week-push {
+		margin-top: 75px;
+	}
+
+	.hd-video-1week-push {
+		margin-top: 180px;
+	}
+
+	.hd-video-happy-people {
+		margin-top: 20px;
+	}
+
+	.hd-video-12weeks-after {
+		margin-top: 10px;
+	}
+
+	.trust-our-reputation-graphic {
+		margin-top: 10px;
+	}	
+}

@@ -1,0 +1,15 @@
+drwx---r-x   3 vickyrum vickyrum     4096 Jan 25 12:55 .
+drwx---r-x   5 vickyrum vickyrum     4096 Jan 25 12:55 ..
+-rw----r--   1 vickyrum vickyrum     7410 Jan 25 12:55 admin-sharing-rtl.css
+-rw----r--   1 vickyrum vickyrum     6036 Jan 25 12:55 admin-sharing-rtl.min.css
+-rw----r--   1 vickyrum vickyrum     7401 Jan 25 12:55 admin-sharing.css
+-rw----r--   1 vickyrum vickyrum    13769 Jan 25 12:55 admin-sharing.js
+-rw----r--   1 vickyrum vickyrum     6027 Jan 25 12:55 admin-sharing.min.css
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 25 12:55 images
+-rw----r--   1 vickyrum vickyrum     4981 Jan 25 12:55 recaptcha.php
+-rw----r--   1 vickyrum vickyrum     8467 Jan 25 12:55 sharedaddy.php
+-rw----r--   1 vickyrum vickyrum    23393 Jan 25 12:55 sharing-service.php
+-rw----r--   1 vickyrum vickyrum    51975 Jan 25 12:55 sharing-sources.php
+-rw----r--   1 vickyrum vickyrum    17319 Jan 25 12:55 sharing.css
+-rw----r--   1 vickyrum vickyrum    15152 Jan 25 12:55 sharing.js
+-rw----r--   1 vickyrum vickyrum    19119 Jan 25 12:55 sharing.php

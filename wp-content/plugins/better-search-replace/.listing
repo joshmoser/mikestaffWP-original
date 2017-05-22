@@ -1,0 +1,8 @@
+drwx---r-x   5 vickyrum vickyrum     4096 Jan 15 02:44 .
+drwx---r-x  20 vickyrum vickyrum     4096 Feb 11 12:59 ..
+-rw----r--   1 vickyrum vickyrum     4774 Jan 15 02:43 README.md
+-rw----r--   1 vickyrum vickyrum        0 Jan 15 02:44 better-search-replace.php
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 15 02:43 includes
+-rw----r--   1 vickyrum vickyrum       26 Jan 15 02:43 index.php
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 15 02:44 languages
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 15 02:43 templates

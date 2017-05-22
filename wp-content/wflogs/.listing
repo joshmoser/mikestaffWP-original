@@ -1,0 +1,8 @@
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 15 01:43 .
+drwx---r-x   9 vickyrum vickyrum     4096 Jan 27 18:13 ..
+-rw----r--   1 vickyrum vickyrum      133 Jan 10 12:41 .htaccess
+-rw----r--   1 vickyrum vickyrum    40083 Jan 12 21:03 attack-data.php
+-rw----r--   1 vickyrum vickyrum   247935 Jan 15 01:43 config.php
+-rw----r--   1 vickyrum vickyrum       51 Jan 10 12:41 ips.php
+-rw----r--   1 vickyrum vickyrum    87671 Jan 10 12:41 rules.php
+-rw----r--   1 vickyrum vickyrum    39141 Jan 10 12:41 wafRules.rules

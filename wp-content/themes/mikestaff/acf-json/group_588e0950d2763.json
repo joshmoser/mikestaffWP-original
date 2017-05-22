@@ -1,0 +1,62 @@
+{
+    "key": "group_588e0950d2763",
+    "title": "Page Header and Footer Scripts",
+    "fields": [
+        {
+            "default_value": "",
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": "",
+            "key": "field_588e0972af450",
+            "label": "Header Scripts",
+            "name": "header_scripts",
+            "type": "textarea",
+            "instructions": "Scripts to be loaded in Header",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "default_value": "",
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": "",
+            "key": "field_588e09a3af451",
+            "label": "Footer Scripts",
+            "name": "footer_scripts",
+            "type": "textarea",
+            "instructions": "Page Scripts To be loaded in footer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "Extra Scripts for individual pages. Global scripts should be installed in Theme Settings.",
+    "modified": 1485703713
+}

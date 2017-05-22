@@ -1,0 +1,5 @@
+drwx---r-x   2 vickyrum vickyrum     4096 Jan 28 00:24 .
+drwx---r-x  10 vickyrum vickyrum     4096 Jan 28 00:24 ..
+-rw----r--   1 vickyrum vickyrum     3630 Jan 28 00:24 apache.php
+-rw----r--   1 vickyrum vickyrum      919 Jan 28 00:24 nginx.php
+-rw----r--   1 vickyrum vickyrum     4240 Jan 28 00:24 wordpress.php

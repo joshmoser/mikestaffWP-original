@@ -1,0 +1,12 @@
+dr-xr-xr-x   7 vickyrum vickyrum     4096 Jan 27 18:11 .
+dr-xr-xr-x  11 vickyrum vickyrum     4096 Jan 27 18:11 ..
+dr-xr-xr-x   2 vickyrum vickyrum     4096 Jan 27 18:11 langs
+-r--r--r--   1 vickyrum vickyrum    26427 Jan 27 18:11 license.txt
+dr-xr-xr-x  24 vickyrum vickyrum     4096 Aug 17  2016 plugins
+dr-xr-xr-x   4 vickyrum vickyrum     4096 Aug 17  2016 skins
+dr-xr-xr-x   4 vickyrum vickyrum     4096 Aug 17  2016 themes
+-r--r--r--   1 vickyrum vickyrum    15091 Jan 27 18:11 tiny_mce_popup.js
+-r--r--r--   1 vickyrum vickyrum   385081 Jan 27 18:11 tinymce.min.js
+dr-xr-xr-x   2 vickyrum vickyrum     4096 Jan 27 18:11 utils
+-r--r--r--   1 vickyrum vickyrum   171848 Jan 27 18:11 wp-tinymce.js.gz
+-r--r--r--   1 vickyrum vickyrum     1126 Jan 27 18:11 wp-tinymce.php

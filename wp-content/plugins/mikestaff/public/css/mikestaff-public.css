@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.entry-content .bride-board-navigation {
+	display: none;
+}
+.site-header .bride-board-navigation {
+	width: 100%;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #88b2ff;
+}
+.site-header .boards-taxonomy-navigation {
+	display: none;
+	padding: 15px;
+	list-style: none;
+}
+.site-header .boards-taxonomy-navigation li {
+	margin-bottom: 10px;
+}
+.site-header .boards-taxonomy-navigation a {
+	color: #fff;
+	font-size: 1.2em;
+}
+.site-header #bride-board-button {
+	margin: 0;
+	padding: 0;
+}
+@media all and (min-width: 992px) {
+	.entry-content .bride-board-navigation {
+		display: block;
+	}
+	.site-header .bride-board-navigation {
+		display: none;
+	}
+
+	#bride-board-button .glyphicon {
+		display: none;
+	}
+}

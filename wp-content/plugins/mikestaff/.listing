@@ -1,0 +1,11 @@
+drwx---r-x   6 vickyrum vickyrum     4096 Aug 26 20:04 .
+drwx---r-x  20 vickyrum vickyrum     4096 Feb 11 12:59 ..
+-rw----r--   1 vickyrum vickyrum    18091 Aug 26 20:04 LICENSE.txt
+-rw----r--   1 vickyrum vickyrum     4335 Aug 26 20:04 README.txt
+drwx---r-x   5 vickyrum vickyrum     4096 Aug 26 20:04 admin
+drwx---r-x   2 vickyrum vickyrum     4096 Aug 26 20:04 includes
+-rw----r--   1 vickyrum vickyrum       26 Aug 26 20:04 index.php
+drwx---r-x   2 vickyrum vickyrum     4096 Aug 26 20:04 languages
+-rw----r--   1 vickyrum vickyrum     2284 Aug 26 20:04 mikestaff.php
+drwx---r-x   5 vickyrum vickyrum     4096 Aug 26 20:04 public
+-rw----r--   1 vickyrum vickyrum     1045 Aug 26 20:04 uninstall.php

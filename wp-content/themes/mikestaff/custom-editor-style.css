@@ -1,0 +1,22 @@
+html .mceContentBody {
+	box-sizing: border-box;
+    max-width:750px;
+    border-right: 1px dashed #d4d4d4;
+    font-family: "Lato", arial, sans-serif;
+    color: #868686;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+html .mceContentBody a {
+	color: #79B9EC !important;
+}
+
+html .mceContentBody p {
+    margin: 0 0 10px;
+}
+
+html .mceContentBody ul {
+	margin-top: 0;
+    margin-bottom: 10px;
+}

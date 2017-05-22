@@ -1,0 +1,8 @@
+dr-xr-xr-x   3 vickyrum vickyrum     4096 Jan 27 18:11 .
+dr-xr-xr-x  11 vickyrum vickyrum     4096 Jan 27 18:11 ..
+-r--r--r--   1 vickyrum vickyrum    12655 Jan 27 18:11 handlers.js
+-r--r--r--   1 vickyrum vickyrum     8867 Jan 27 18:11 handlers.min.js
+-r--r--r--   1 vickyrum vickyrum     1540 Jan 27 18:11 license.txt
+dr-xr-xr-x   2 vickyrum vickyrum     4096 Jan 27 18:11 plugins
+-r--r--r--   1 vickyrum vickyrum    37690 Jan 27 18:11 swfupload.js
+-r--r--r--   1 vickyrum vickyrum    13133 Jan 27 18:11 swfupload.swf
