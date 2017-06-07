@@ -320,7 +320,7 @@ function mikestaff_process_check_availability( $data ) {
 	    . "&email=" . urlencode($_POST['email']) 
 	    . "&phone=" . urlencode($_POST['phone']) 
 	    . "&services_interested=" . urlencode($services_interested)
-  		. "&wedding_date=" .  urlencode($_POST['wedding_date'])
+  		. "&wedding_date=" .  urlencode(date('m-d-Y', strtotime($_POST['wedding_date'])))
   		. "&reception_venue=" .  urlencode($_POST['reception_venue'])
   		. "&message=" .  urlencode($_POST['message'])
 	    . "&page_source=" . urlencode($url)

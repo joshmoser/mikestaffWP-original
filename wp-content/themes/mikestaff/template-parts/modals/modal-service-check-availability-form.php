@@ -28,13 +28,13 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="form-group">
                                 <label for="first" class="screen-reader-text">First Name*</label>
-                                <input type="text" class="form-control" id="first" name="first" value="<?php if(isset($_POST['first'])) : echo $_POST['first']; endif; ?>" placeholder="First Name*"        required>
+                                <input type="text" class="form-control" id="first" name="firstname" value="<?php if(isset($_POST['firstname'])) : echo $_POST['firstname']; endif; ?>" placeholder="First Name*"        required>
                             </div>              
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="form-group">    
                                 <label for="last" class="screen-reader-text">Last Name*</label>
-                                <input type="text" class="form-control" id="last" name="last" value="<?php if(isset($_POST['last'])) : echo $_POST['last']; endif; ?>" placeholder="Last Name*"         required>
+                                <input type="text" class="form-control" id="last" name="lastname" value="<?php if(isset($_POST['lastname'])) : echo $_POST['lastname']; endif; ?>" placeholder="Last Name*"         required>
                             </div>              
                         </div>
                     </div><!-- /.row -->
@@ -79,11 +79,11 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <div class="form-group">
                                 <label for="weddingdate" class="screen-reader-text">Wedding Date</label>
-                                <input class="form-control datepicker" type="text" id="weddingdate-modal" name="weddingdate" placeholder="Wedding Date*" required>  
+                                <input class="form-control datepicker" type="text" id="weddingdate-modal" name="wedding_date" placeholder="Wedding Date*" required>  
                             </div> 
                             <div class="form-group">
                                 <label for="venue" class="screen-reader-text">Reception Venue</label>
-                                <input type="text" class="form-control" id="venue" name="venue" placeholder="Reception Venue">
+                                <input type="text" class="form-control" id="venue" name="reception_venue" placeholder="Reception Venue">
                             </div>         
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
